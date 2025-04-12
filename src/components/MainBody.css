@@ -1,0 +1,144 @@
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin-top: 24px;
+}
+
+.main_top {
+    display: none;
+}
+
+.main_bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+}
+
+.top_anime {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.top_anime_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color1);
+    color: var(--color5);
+    gap: 12px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 8px;
+
+}
+
+.top_anime_header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.top_anime_selector{
+    color: var(--color5);
+    background-color: var(--color0);
+}
+
+.recommendations {
+    flex: 1;
+}
+
+.top_anime_list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top_anime_list_item:hover {
+    background-color: #333333;
+}
+
+.top_anime_list_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.top_anime_list_item_image {
+    display: flex;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    overflow: hidden;
+}
+
+.top_anime_list_item_details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    color: var(--color0);
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.top_anime_list_item_details div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.top_anime_list_item_details div h3{
+    margin: 0;
+}
+
+.top_anime_list_item_details div p{
+    margin: 0;
+}
+
+.top_anime_list_item_details div ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: "";
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.top_anime_list_item_details div ul li{
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.top_anime_list_item_details input{
+    background-color: var(--color1);
+    border: none;
+    padding: 12px 24px; 
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;;
+    cursor: pointer;
+}
+
+.top_anime_list_item_details input:hover{
+    background-color: var(--color5);
+    color: var(--color0);
+    font-weight: bold;
+}
+
