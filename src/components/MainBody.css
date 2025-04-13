@@ -83,6 +83,7 @@
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .top_anime_list_item_details {
