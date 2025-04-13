@@ -55,7 +55,7 @@ function MainBody() {
                             ))}
                         </ul>
                         {anime.year != null && <p>Year: {anime.year}</p>}
-                        <p>{anime.synopsis}</p>
+                        <p class="synopsis">{anime.synopsis}</p>
                     </div>
                         <input type="button" value="Watch Trailer" onClick={event =>  window.location.href=anime.trailer.url}></input>
                     </div>
